@@ -4,3 +4,8 @@
 - A függvény szorozza meg a tömbelemek értékét 1.27-tel, majd pedig 
 __térjen vissza__ az elemek egész számra kerekített összegével!
 */
+
+let brutto = array => {
+    let multipliedItems = array.map(item => Math.round(item * 1.27 ));
+    return multipliedItems.reduce((a,b) => a + b);
+}
