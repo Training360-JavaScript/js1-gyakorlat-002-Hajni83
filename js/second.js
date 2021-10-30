@@ -15,8 +15,7 @@ hogy a tömb minden eleme number típusú-e vagy sem
 - `someElementsAreNumbers`: Értéke true/false attól függően, 
 hogy a tömbben van-e number típusú elem vagy sem
 */
-const array1 = ["Jack", 34, true, 567];
-const array2 = [23, 44, 875, 99];
+
 
 checker = (array, param) => {
     let obj = {};
